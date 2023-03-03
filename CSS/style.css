@@ -1,3 +1,119 @@
-.police {
+body {
     font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    max-height: 1889.02px;;
+}
+
+main{
+    margin: 0px 50px 0px 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo {
+    height: 19px;
+    width: 61.089656829833984px;
+    color: #0065FC;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.puce {
+    list-style-type: none
+}
+
+#puceFlex{
+    display: flex;
+    gap: 69px;
+    margin-top: 16px;
+    margin-right: 42.61px;
+}
+
+a:hover {
+    color: #0065FC;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#marginHeader1 {
+    margin-top: 50px;
+}
+
+.styleH1 {
+
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.borderIcon{
+    height: 49px;
+    width: 50px;
+    position:relative;
+    left: 0%;
+    right: 84.94%;
+    top: 0%;
+    bottom: 0%;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+#icon{
+    text-align: center;
+    position: relative;
+    
+} 
+
+
+input[type="text"] {
+    height: 49px;
+    width: 332px;
+    border-radius: 15px;
+    position: absolute;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+button{
+
+flex-direction: row;
+align-items: center;
+padding: 15px 16px;
+gap: 10px;
+position: absolute;
+width: 132px;
+height: 49px;
+left: 341px;
+background-color: #0065FC;
+border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+color: white;
+font-size: 18px;
+line-height: 21px;
+font-weight: bold;
 }
