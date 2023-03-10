@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
 }
 
-main{
+main , footer{
     margin: 0px 50px 0px 50px;
 }
 
@@ -14,9 +14,20 @@ main{
     display: flex;
 }
 
-.flexSpace{
+.flex-space, .flex-hebergements{
     display: flex;
     justify-content: space-between;
+}
+
+.flex-center, .border-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-filtre{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -32,7 +43,7 @@ main{
     list-style-type: none
 }
 
-#puceFlex{
+#puce-flex{
     display: flex;
     gap: 69px;
     margin-top: 16px;
@@ -57,32 +68,35 @@ nav li:hover:before {
   }
 
 
-  a {
+a {
     text-decoration: none;
     color: #000000;
 }
 
-#marginMain1 {
+#margin-main1 {
     margin-top: 60px;
-    margin-bottom: 0px;
 }
 
-#marginMain2{
+#margin-main2{
     margin-top: 8px;
-    margin-bottom: 0px;
 }
 
-#marginMain3{
+
+#margin-main1 , #margin-main2{
+margin-bottom: 0px;
+}
+
+
+.margin-main3{
     margin-top: 35px;
 }
 
-#marginMain4{
-    margin-top: 35px;
-    /* margin-bottom:35px; */
+.margin-main4{
+    margin-bottom: 37.5px;
 }
 
 
-.styleH1 {
+.style-h1 {
 
     font-size: 22px;
     font-weight: 700;
@@ -97,12 +111,12 @@ nav li:hover:before {
 
 }
 
-.starGrey{
+.star-grey{
     color: #F2F2F2;
 }
 
 
-.filterBar{
+.filter-bar{
     
     position: absolute;
     width: 914px;
@@ -111,15 +125,12 @@ nav li:hover:before {
     top: 280px;
 
 }
-.borderIcon{
+.border-icon{
     height: 51px;
     width: 50px;
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
 
@@ -147,7 +158,6 @@ button{
     gap: 10px;
     position: absolute;
     width: 132px;
-    height: 49px;
     left: 341px;
     background-color: #0065FC;
     border: 1px solid #0065FC;
@@ -160,17 +170,17 @@ button{
 
 }
 
-.marginFiltre{
+.margin-filtre{
     margin-top: 49.5px;
 }
 
-.filtreTypo{
+.filtre-typo{
     height: 20px;
     font-size: 17px;
     line-height: 20px;
 }
 
-.borderFiltre{
+.border-filtre{
     
     border :solid 2px #D9D9D9;
     max-height: 45px;
@@ -179,24 +189,20 @@ button{
     padding-right: 20px;
 }
 
-.flexFiltre{
-    display: flex;
-    align-items: center;
-}
 
 #gap1{
     gap: 12px;
 }
 
-.gapFiltre{
+.gap-filtre{
     gap: 10px;
 }
 
-.borderFiltre:hover{
+.border-filtre:hover{
     background-color: #DEEBFF;
 }
 
-.borderInfo{
+.border-info{
     width: 24px;
     height: 24px;
     border: 1px solid #D9D9D9;
@@ -207,7 +213,7 @@ button{
 
 }
 
-.borderCard1{
+.border-card1{
     padding: 30px;
     gap: 30px;
     width: 871px;
@@ -215,9 +221,10 @@ button{
     background: #F2F2F2;
     border-radius: 15px;
     margin-right: 40px;
+    margin-bottom: 65px;
 }
 
-.borderImg1{
+.border-img1{
     box-sizing: border-box;
     width: 250.33px;
     height: 124px;
@@ -226,18 +233,14 @@ button{
     object-fit: cover;
 }
 
-.titleArticle1{
-    height: 19px;
+.title-article1{
     font-size: 16px;
     line-height: 19px;
     margin-top: 4px;
     margin-bottom: 0px;
-    margin-left: 15px;
 }
 
-.cardArticle1{
- display: flex;
-flex-direction: column;
+.card-article1{
 padding: 0px 0px 15px;
 gap: 4px;
 width: 250.33px;
@@ -247,7 +250,7 @@ box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 border-radius: 20px;
 }
 
-.titleArticle2{
+.title-article2{
 
     width: 220.33px;
     height: 16px;
@@ -258,28 +261,26 @@ border-radius: 20px;
     line-height: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-left: 15px;
 }
 
-.marginCard {
+.margin-card {
     margin-top: 30px;
 }
 
-.marginLefticon{
+.margin-lefticon{
     margin-left: 15px;
 }
 
-.borderCard2{
+.border-card2{
     width: 429px;
     height: 611.5px;
     background: #F2F2F2;
     border-radius: 15px;
     padding: 30px;
 
-
 }
 
-.borderImg2{
+.border-img2{
     width: 123px;
     height: 144px;
     border-width: 5px 0px 5px 5px;
@@ -287,38 +288,102 @@ border-radius: 20px;
     border-color: #FFFFFF;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
+    margin-right: 15px;
     
 }
 
-.cardArticle2{
+.card-article2{
     width: 369px;
     background: #FFFFFF;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    margin-bottom: 30px;
 
 }
 
-.flexColumn{
+.flex-column , .card-article1{
     display: flex;
     flex-direction: column;
 }
 
-.marginCard1{
+.margin-card1{
     margin-top: 15px;
 }
 
-
-/* .marginCard2 {
-    margin-top: 30px;
-} */
-
-.displayCenter{
+.display-center,.card-article3{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.marginAuto{
+.margin-auto{
     margin-top: auto;
-    margin-right: 15px;
+    line-height: 45px;
+}
+
+.margin-article1{
+    margin-left: 15px;
+}
+
+
+.border-img3{
+
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-article3{
+    padding: 20px 19px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+}
+
+.gap-activites{
+    gap: 30px;
+    margin-bottom: 65px;
+}
+
+.border-card3{
+    width: 1340px;
+    height: 163px;
+    background: #F2F2F2;
+
+}
+
+#padding-footer {
+    padding: 20px;
+}
+
+.padding-ul {
+    padding-left: 0;
+}
+
+.box {
+    width: 33%;
+    height:100%;
+    }
+
+footer li{
+    padding-bottom: 15px;
+}
+
+footer h2{
+    margin-top: 0px;
+}
+
+
+
+
+@media (max-width: 1024px) 
+
+{
+   .flex-hebergements{
+    flex-direction: column;
+   }
 }
