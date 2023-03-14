@@ -437,7 +437,7 @@ footer h2 {
 }
 
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .flex-hebergements {
         flex-direction: column;
     }
@@ -519,5 +519,4 @@ footer h2 {
         display: none;
         flex-direction: column;
     }
-
-} */
+}
