@@ -467,6 +467,10 @@ footer h2 {
 @media screen and (max-width: 1024px) {
 
 
+   body{
+    max-width: 1024px;
+   }
+
     .flex-hebergements {
         flex-direction: column;
     }
@@ -542,6 +546,12 @@ footer h2 {
 }
 
     @media screen and (max-width: 768px) {
+
+
+
+    body{
+        max-width: 768px;
+    }
 
 
     #logo{
@@ -713,7 +723,7 @@ footer h2 {
     }
 
     .border-card3{
-        height: 461px;
+        height: 409px;
         margin-left: -10px;
     }
 }
