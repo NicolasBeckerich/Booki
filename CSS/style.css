@@ -2,8 +2,8 @@ body {
 
     font-family: 'Raleway', sans-serif;
     max-width: 1440px;
-    max-height: 1889.02px;
-    box-sizing: border-box;
+    /* max-height: 1889.02px; */
+    /* box-sizing: border-box; */
 }
 
 main,
@@ -47,7 +47,7 @@ footer {
 
 #logo {
     height: 19px;
-    width: 61.089656829833984px;
+    width: 61px;
     color: #0065FC;
     margin-top: 30px;
     margin-left: 30px;
@@ -124,7 +124,7 @@ a {
 .filter-bar {
 
     position: absolute;
-    width: 914px;
+    width: 35%;
     height: 50px;
     left: 62px;
     top: 280px;
@@ -133,7 +133,7 @@ a {
 
 .border-icon {
     height: 51px;
-    width: 50px;
+    width: 4%;
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -143,7 +143,7 @@ a {
 
 input[type="text"] {
     height: 49px;
-    width: 235px;
+    width: 16%;
     position: absolute;
     font-family: 'Raleway';
     border: 1px solid #F2F2F2;
@@ -168,8 +168,8 @@ button {
     padding: 15px 16px;
     gap: 10px;
     position: absolute;
-    width: 132px;
-    left: 341px;
+    width: 10%;
+    left: 23%;
     background-color: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
@@ -236,17 +236,19 @@ button {
 }
 
 .border-info {
-    width: 24px;
+    width: 2%;
     height: 24px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
 
 }
 
+
+
 .border-card1 {
     padding: 30px;
     gap: 30px;
-    width: 871px;
+    width: 60%;
     height: 611.5px;
     background: #F2F2F2;
     border-radius: 15px;
@@ -256,7 +258,7 @@ button {
 
 .border-img1 {
     box-sizing: border-box;
-    width: 250.33px;
+    width: 100%;
     height: 124px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
@@ -293,14 +295,14 @@ button {
 
 .main-title {
 
-    font-size: 22px;
+    font-size: 120%;
     font-weight: 700;
     line-height: 26px;
     height: 26px;
 }
 
 .hebergements-title1 {
-    width: 220.33px;
+    width: 98%;
     height: 19px;
 }
 
@@ -311,11 +313,11 @@ button {
 }
 
 .popular-title1 {
-    width: 226px;
+    width: 80%;
 }
 
 .popular-title2 {
-    width: 226px;
+    width: 70%;
     height: 16px;
 }
 
@@ -326,7 +328,7 @@ button {
 }
 
 .activites-title {
-    width: 259.5px;
+    width: 90%;
     height: 19px;
 }
 
@@ -341,7 +343,7 @@ button {
 .card-article1 {
     padding: 0px 0px 15px;
     gap: 4px;
-    width: 250.33px;
+    width: 30%;
     height: 207.25px;
     border-radius: 20px;
     background: #FFFFFF;
@@ -356,7 +358,7 @@ button {
 }
 
 .border-card2 {
-    width: 429px;
+    width: 30%;
     height: 611.5px;
     background: #F2F2F2;
     border-radius: 15px;
@@ -365,7 +367,7 @@ button {
 }
 
 .border-img2 {
-    width: 123px;
+    width: 33%;
     height: 144px;
     border-width: 5px 0px 5px 5px;
     border-style: solid;
@@ -376,7 +378,7 @@ button {
 }
 
 .card-article2 {
-    width: 369px;
+    width: 100%;
     background: #FFFFFF;
     border-radius: 20px;
     margin-bottom: 30px; 
@@ -409,13 +411,13 @@ button {
     margin-left: 15px;
 }
 
-#padding-activites{
+.padding-activites{
     padding: 8px;
 }
 
 .border-img3 {
 
-    width: 297.5px;
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -424,15 +426,16 @@ button {
     background: #FFFFFF;
     border-radius: 20px;
     margin-top: 0px;
+    width: 25%;
 }
 
 .gap-activites {
-    gap: 30px;
+    gap: 4%;
     margin-bottom: 65px;
 }
 
 .border-card3 {
-    width: 1340px;
+    width: 90%;
     height: 163px;
     background: #F2F2F2;
 
@@ -475,29 +478,41 @@ footer h2 {
         flex-direction: column;
     }
 
+    button{
+        width: 15%;
+        left: 30%;
+    }
+
+    input[type="text"] {
+        width: 20%;
+
+    }
+
+
     .border-img1 {
 
-        width: 268px;
+        width: 100%;
     }
 
     .border-card1 {
+        width: 95%;
         height: 611.5px;
 
     }
 
     .card-article1 {
-        width: 268px;
+        width: 30%;
         height: 207.25px;
 
     }
 
     .border-card2 {
-        width: 879px;
+        width: 95%;
         height: 250px;
     }
 
     .card-article2 {
-        width: 274.67px;
+        width: 30%;
     }
 
     .flex-popular {
@@ -520,28 +535,28 @@ footer h2 {
     }
 
     .card-article3 {
-        width: 193.5px;
+        width: 20%;
     }
 
     .border-img3 {
-        width: 193.5px;
+        width: 100%;
         height: 200px;
     }
 
     .activites-title{
-        width: 155.5px;
+        width: 90%;
         display: flex;
         align-items: center;
     }
 
     .border-card3 {
-        width: 875px;
+        width: 90%;
         height: 144px;
     }
 
     .gap-activites{
         gap: 30px;
-        width: 924px;
+        width: 100%;
     }
 }
 
@@ -559,6 +574,7 @@ footer h2 {
     }
 
     #puce-flex{
+        gap: 55%;
         margin-right: 88.61px;
         margin-top: 30px;
     }
@@ -571,7 +587,7 @@ footer h2 {
     }
 
     nav{
-        width: 375px;
+        width: 100%;
     }
     main,footer{
         margin: 0px 20px 0px 20px;
@@ -600,13 +616,13 @@ footer h2 {
     }
 
     #margin-main1{
-        width: 335px ;
+        width: 100% ;
         height: 52px;
         margin-top: 30px;
     }
 
     #margin-main2{
-        width: 335px;
+        width: 100%;
     }
 
     .border-icon{
@@ -615,15 +631,15 @@ footer h2 {
     }
 
     input[type="text"]{
-        width: 240px;
+        width: 70%;
         height: 47px;
     }
 
     button {
-        width: 49px;
+        width: 13%;
         height: 51px;
         border-radius: 15px;
-        left: 311px;
+        left: 80%;
     }
 
     .filtre-typo{
@@ -659,7 +675,7 @@ footer h2 {
     }
 
     .card-article2,.card-article1{
-        width: 335px;
+        width: 100%;
 
     }
 
@@ -679,7 +695,7 @@ footer h2 {
 
     .border-card2{
         margin-bottom: 0px;
-        width: 321px;
+        width: 100%;
         height: 569px;
         margin-left: -28px;
         border-radius: 0px;
@@ -701,7 +717,7 @@ footer h2 {
     }
 
     .border-img1{
-        width: 335px;
+        width: 100%;
         height: 124px;
     }
 
@@ -710,20 +726,26 @@ footer h2 {
     }
 
     .card-article3 {
-        width: 315px;
+        width: 95%;
     }
 
     .border-img3 {
-        width: 315px;
+        width: 100%;
         height: 141px;
     }
 
     .activites-title{
-        width: 282px;
+        width: 90%;
     }
 
     .border-card3{
-        height: 409px;
+        width: 100%;
+        height:100%;
         margin-left: -10px;
+    }
+
+    .sub-title{
+        font-size: 115%;
+        height: 30px;
     }
 }
