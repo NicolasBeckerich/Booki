@@ -4,7 +4,7 @@
 <head>
     <title>Booki</title>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,29 +13,31 @@
 </head>
 
 <body>
-    <header class="flex-header">
-        <img id="logo" src="images/ImagesBooki/logo/Booki.png" alt="Booki">
+    <header>
         <nav>
-            <ul class="puce" id="puce-flex">
-                <li><a href="#hebergements">Hébergements</a></li>
-                <li><a href="#activites">Activités</a></li>
-            </ul>
+            <img id="logo" src="images/ImagesBooki/logo/Booki.png" alt="Booki">
+            <div id="container_nav">
+                <div class="container_nav_bar1">
+                    <a href="#hebergements">Hébergements</a>
+                </div>
+                <div class="container_nav_bar2">
+                    <a href="#activites">Activités</a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="margin-section">
             <h1 class="main-title" id="margin-main1">Trouver votre hébergement des vacances de rêve</h1>
             <p id="margin-main2">En plein centre ville ou en pleine nature</p>
-            <div class="flex margin-main3">
-                <div class="border-icon">
-                    <i class="fa-solid fa-location-dot fa-lg"></i>
-                </div>
-                <form method="get">
+                <form method="get" class="flex margin-main3">
+                    <div class="border-icon">
+                        <i class="fa-solid fa-location-dot fa-lg"></i>
+                    </div>
                     <input placeholder="Marseille, France" type="text">
-                    <button class="search-button-desktop" type="submit">Rechercher</button>
-                    <button class="search-button-mobile" type="submit"><i class="fas fa-search"></i></button>
+                    <button class=" search-button search-button-desktop" type="submit">Rechercher</button>
+                    <button class=" search-button search-button-mobile" type="submit"><i class="fas fa-search"></i></button>
                 </form>
-            </div>
             <section class="margin-filtre flex-filtre2 gap1">
                 <h2 class="filtre-typo">Filtres</h2>
                 <div class="flex-filtres gap1 ">
@@ -67,7 +69,7 @@
             </div>
         </section>
         <section class="flex-hebergements">
-            <div class="border-card1">
+            <div class="border-card1 margin-section">
                 <h2 class="main-title" id="hebergements">Hébergements à Marseille</h2>
                 <div class="flex-space">
                     <article class="card-article1">
@@ -244,7 +246,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="margin-section">
             <h2 class="main-title" id="activites">Activités à Marseille</h2>
             <article class="flex-space gap-activites">
                 <div class="flex-column card-article3">
